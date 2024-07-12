@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    gap: 20px;
+}
+label{
+    color: white;
+}
+.buttonimg{
+    height: 3px;
+    width: 2px;
+}
+.googimg{
+    height: 40px;
+    width: 40px;
+} 
+.faceimg{
+    height: 40px;
+    width: 40px;
+} 
+.appleimg{
+    height: 40px;
+    width: 40px;
+} 
+button{
+    background-color: white;
+    border: none;
+    margin:10px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 100px;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+}
+.login{
+    width: 100%;
+}
+input{
+    border: none;
+    height: 40px;
+    width:100%;
+}
+.log{
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    width: 200px;
+    height: 40px;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.first,.second,.third{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button:hover{
+    cursor: pointer;
+}
+.mail{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+@media only screen and (max-width:990px){
+    body{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        gap: 20px; 
+    }
+}
